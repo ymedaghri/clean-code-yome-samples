@@ -9,7 +9,7 @@ const {
     RATE_CONVERSION_MILLISECONDS_TO_SECONDS,
     RATE_CONVERSION_SECONDS_TO_MINUTES,
     RATE_CONVERSION_SECONDS_TO_HOURS
-} = require("../../../repositories/exportRepository/constantes");
+} = require("../../utils/constantes");
 
 const pdfNameGeneratorFunction = (date, fuseauHoraire, sub) => {
     return `${moment
